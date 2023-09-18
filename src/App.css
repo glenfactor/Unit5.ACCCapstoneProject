@@ -1,0 +1,409 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300;400;500;600;700;800;900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 auto;
+  padding: 2rem;
+  text-align: left;
+   line-height: 1.5;
+    
+}*/
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  /* line-height: 1.5; */
+  margin: 0px;
+  padding: 0px;
+
+}
+
+
+/* Style the navigation bar */
+.navbar {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3A62F4;
+  height: 100px;
+  
+  color: white;
+}
+
+.topbar {
+  display: flex;
+  height: 60px;
+  width: 100%;
+  font-size: 12px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #334158;
+  color: white;
+}
+
+div.topbar p {
+  padding: 10px;
+}
+
+
+
+/* Style the logo */
+.logo {
+  
+  padding: 10px;
+  width: 240px;
+}
+
+/* Style the navigation links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  font-size: 13px;
+  gap: 20px;
+  color: #334158;
+  border-bottom: 1px solid #E2E4EA;
+}
+
+.nav-links li {
+color: #334158;
+  
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #979797;
+  transition: color 0.3s ease;
+  border: 1px solid #dcdcdc;
+  padding: 12px 12px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  box-sizing: border-box;
+  width: auto;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-links a:hover {
+  color: #FFF; /* Change color on hover (you can use any color you like) */
+  background-color: #334158;
+  border: 1px solid #FFF;
+
+}
+
+/* Style the home */
+
+.helloworld h1 {
+  font-size: 96px;
+  font-weight: lighter;
+}
+
+.helloworld p {
+  font-size: 24px;
+  font-weight: 100; 
+  padding: 20px;
+}
+
+.productlist h3 {
+  font-weight: bold;
+  font-size: 24px;
+  
+}
+
+.productlist p {
+  font-size: 14px;
+  
+}
+
+.productlist span { 
+  font-size: 12px;
+ 
+  text-transform: uppercase;
+  color:#979797;
+  font-kerning: auto;
+}
+
+p.price-tag  {
+  font-size: 24px;
+  font-weight: bold;
+}
+  
+
+
+ul.productlist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+button {
+  /* background-color: #3A62F4;
+  border: none;
+  color: white; */
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50; /* Green */
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-eblock;
+  font-size: 12px;
+  border-radius: 5px;
+  transition-duration: 0.4s;
+  margin-right: 10px;
+}
+
+.back-button {
+  color: black;
+  border: 2px solid #4CAF50; /* Green */
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 5px;
+  transition-duration: 0.4s;
+  
+}
+
+button:hover {
+  background-color: #4CAF50;
+}
+
+
+h1 {
+  font-size: 64px;
+  font-weight: bold;
+  padding: 0px 0px 0px 30px;
+
+}
+ul.product-category  {
+  list-style-type: none;
+  text-decoration: none;
+  font-weight: normal;
+  padding: 0px 0px 0px 30px;
+}
+
+ul.productlist li {
+  width: 28%; /* Three columns with some spacing in between */
+  list-style-type: none;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+  /* box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); */
+}
+
+/* Style for the ProductList Cards */
+.productlist {
+  margin:0px;
+  padding:0px;
+  display: flex;
+  
+}
+
+
+.productlist-detail {
+  margin:0px;
+  padding:0px;
+ 
+}
+
+.productlist-detail-title {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 0px 20px;
+  
+}
+.productlist-detail-title button{
+  align-self: center;
+}
+
+.productlist-detail-title h1{
+  color:#979797;
+  font-size: 24px;
+  padding: 0px;
+}
+
+
+ul.productlist li img {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 30px;
+  object-fit: contain;
+}
+
+/* .productlist img {
+  border: 1px solid; 
+  width: 100%;
+  height: 300px;
+  padding: 20px;
+  margin-bottom: 30px;
+  object-fit: contain;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+} */
+
+
+.productlist-detail {
+ display: flex;
+ padding: 20px;
+  
+}
+
+
+.productlist-detail h2 {
+  font-size: larger;
+
+ }
+ 
+ .productlist-detail img {
+  border: 1px solid; 
+  width: 75%;
+  height: 600px;
+  object-fit: contain;
+  padding: 20px;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+}
+
+
+ .productlist-detail span { 
+  font-size: 12px;
+  padding: 0px 20px 0px 0px;
+  text-transform: uppercase;
+  color:#979797;
+  font-kerning: auto;
+}
+
+.right-side {
+  border: 1px solid rebeccapurple;
+  width: 60%;
+  padding:  30px;
+  margin-left: 40px;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+}
+
+/* .left-side {
+  border: 1px solid rebeccapurple;
+} */
+
+
+
+
+
+/* Style for the footer */
+
+.mainfooter {
+  width: 100%;
+  height: auto;
+  background-color: #3A62F4;
+  display: flex;
+  justify-content: space-between; /* Distribute columns evenly horizontally */
+  align-items: flex-start; /* Align content to the top within each column */
+  margin-top: 20px;
+  
+}
+
+.mainfooter h2 {
+  color:#FAFAFA;
+  font-size:medium;
+  font-weight: 200;
+  padding: 10px 0px 0px 40px;
+}
+
+.mainfooter p {
+  color:#FAFAFA;
+  font-size: small;
+  font-weight: lighter;
+  padding: 0px 0px 0px 40px;
+}
+
+.mainfooter h3 {
+  display: block;
+  color:#FAFAFA;
+  font-size:normal;
+  font-weight: 400;
+  padding: 10px 0px 0px 10px;
+}
+
+.footerlogo {
+  /* border: 1px solid; */
+  width: 200px;
+  padding: 10px;
+  margin: 30px 0px 0px 40px;
+}
+
+.socialMedia_icons {
+  width: 16px;
+  height: 16px;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 10px 0px 10px;
+}
+
+.shoppingCart_icons {
+  width: 16px;
+  height: 16px;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 10px 0px 10px;
+}
+
+.footer-col-1 {
+  /* border: 1px solid; */
+  width: 50%;
+}
+
+
+.footer-col-2 {
+  /* border: 1px solid; */
+  width: 15%;
+  padding-bottom: 20px;
+  
+}
+
+.footer-col-2 ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px 0px 0px 10px;
+  font-size: 13px;
+  font-weight: 100;
+
+  
+}
+.footer-col-2 li {
+  display: block;
+  margin-bottom: 8px;
+
+}
+
+.footer-col-2 li a {
+  list-style: none;
+  text-decoration: none;
+  color:#FFF;
+  
+}
+
+.footer-col-2 li a:hover {
+  text-decoration: underline;
+}
+
+
+.subfooter {
+  display: flex;
+  justify-content: space-between; 
+  width: 100%;
+  height: 80px;
+  background-color: #FAFAFA;
+}
+
+.subfooter p {
+  padding: 20px 20px;
+  font-size: small;
+  color:#979797;
+}
