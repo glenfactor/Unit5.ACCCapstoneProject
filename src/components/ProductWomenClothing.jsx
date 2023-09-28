@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
+
 const Product_URL = "https://fakestoreapi.com";
 
 export default function ProductWomensClothing() {
@@ -43,9 +44,9 @@ export default function ProductWomensClothing() {
           <p>{product.category}</p> */}
          
           {/* Use Link to navigate to the ProductDetail page with the product ID */}
-          <Link to={`/products/${product.id}`}>
-          <button>Add to Cart</button>
-          </Link>
+         
+          <button onClick={() => addToCart(product)}>Add to Cart</button>
+          
           <Link to={`/products/${product.id}`}>
           <button>View Product</button>
           </Link>

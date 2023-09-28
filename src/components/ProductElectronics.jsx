@@ -43,9 +43,9 @@ export default function ProductElectronics() {
          <p>{product.category}</p> */}
         
          {/* Use Link to navigate to the ProductDetail page with the product ID */}
-         <Link to={`/products/${product.id}`}>
-         <button>Add to Cart</button>
-         </Link>
+        
+         <button onClick={() => addToCart(product)}>Add to Cart</button>
+         
          <Link to={`/products/${product.id}`}>
          <button>View Product</button>
          </Link>
